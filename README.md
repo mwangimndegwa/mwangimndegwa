@@ -15,19 +15,21 @@ I think about the full data lifecycle — ingestion → storage → modeling →
 - **Data Engineering** — ETL/data pipelines, distributed processing, streaming systems, database design, containerization and orchestration
 - **Data Science & Machine Learning** — regression, classification, clustering, ensembles, time-series, NLP/topic modeling, experimentation
 - **Analytics** — statistical analysis, data validation, visualization, decision support
-- **Applied AI** — LLM-powered assistants, AI agents, responsible-AI practices
+- **Applied AI** — LLM-powered assistants, AI agents, automation bots, responsible-AI practices
 - **Geospatial / Environmental Data** — satellite imagery, remote sensing, Earth Engine, environmental monitoring
 
 ## Featured Projects
 
 | Project | What it is | Key technologies |
 |---|---|---|
-| [rocksdb-key-value-engine](https://github.com/mwangimndegwa/rocksdb-key-value-engine) | C++ key-value data application on RocksDB: CSV ingestion with batched writes, MultiGet, range iteration, deletion | C++, RocksDB, Make |
 | [streaming-graph-pipeline](https://github.com/mwangimndegwa/streaming-graph-pipeline) | End-to-end streaming architecture: Kafka → Kafka Connect → Neo4j on Kubernetes, with PageRank/BFS graph analytics | Kafka, Neo4j, Kubernetes, Docker, Python, Cypher |
+| [rocksdb-key-value-engine](https://github.com/mwangimndegwa/rocksdb-key-value-engine) | C++ key-value data application on RocksDB: CSV ingestion with batched writes, MultiGet, range iteration, deletion | C++, RocksDB, Make |
+| [drive-to-github-sync-bot](https://github.com/mwangimndegwa/drive-to-github-sync-bot) | Telegram bot that proposes daily notebook pushes from Google Drive, drafts commit messages with Claude, and pushes to GitHub after approval | Python, Telegram API, GitHub API, Google Drive API, Claude API, Docker |
+| [spark-spatial-query-engine](https://github.com/mwangimndegwa/spark-spatial-query-engine) | Custom ST_Contains / ST_Within UDFs bringing range and distance queries to Spark SQL over point and rectangle datasets | Scala, Apache Spark, Spark SQL |
+| [census-income-visual-analytics](https://github.com/mwangimndegwa/census-income-visual-analytics) | User-story-driven EDA of the UCI Adult Census Income dataset: 5 questions, 7 publication-style visualizations | Python, pandas, seaborn, matplotlib |
 | [voiwatch](https://github.com/mwangimndegwa/voiwatch) | AI-assisted satellite monitoring platform for environmental change detection around Voi, Kenya | Python, Google Earth Engine, Sentinel-2, Streamlit, Gemini |
 | [Data-Science-Portfolio](https://github.com/mwangimndegwa/Data-Science-Portfolio) | Machine learning and data analysis notebooks: neural networks, PyTorch, decision trees, EDA | Python, PyTorch, scikit-learn, pandas |
 | [social-media-agent](https://github.com/mwangimndegwa/social-media-agent) | Telegram-based AI assistant that plans, drafts, and publishes social content via Claude + browser automation | Python, Claude API, Playwright, Telegram |
-| [mwangimndegwa.github.io](https://github.com/mwangimndegwa/mwangimndegwa.github.io) | Personal portfolio site | Jekyll, GitHub Pages |
 
 ## Technical Toolkit
 
@@ -37,11 +39,13 @@ I think about the full data lifecycle — ingestion → storage → modeling →
 
 **Databases:** RocksDB, Neo4j, SQL / NoSQL
 
-**Cloud & Infrastructure:** AWS foundations (EC2, Lambda, DynamoDB, IAM, CloudWatch), Linux
+**Cloud & Infrastructure:** AWS foundations (EC2, Lambda, DynamoDB, IAM, CloudWatch), Linux, Railway
 
 **Data Science / ML:** scikit-learn, PyTorch, pandas, NumPy, regression, classification, clustering, ensembles, time-series, NLP, topic modeling, anomaly detection
 
 **Geospatial:** Google Earth Engine, Sentinel-2, NDVI, remote sensing, Streamlit
+
+**APIs & Automation:** GitHub REST API, Google Drive API, Telegram Bot API, Anthropic API, Playwright
 
 **Tools:** Git, Make, Helm, Jupyter
 
