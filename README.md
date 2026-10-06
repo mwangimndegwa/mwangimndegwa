@@ -63,5 +63,4 @@ Exploring how data science, AI, and scalable data systems can support real-world
 ## Contact
 
 - GitHub: [mwangimndegwa](https://github.com/mwangimndegwa)
-- LinkedIn: `YOUR-LINKEDIN-URL` ← replace with your profile link
-- Email: `YOUR-EMAIL` ← replace with your email
+- LinkedIn: [mwangimndegwa](www.linkedin.com/in/mwangimndegwa)
