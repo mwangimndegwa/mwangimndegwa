@@ -10,6 +10,12 @@ I'm completing an M.S. in Data Science, Analytics and Engineering at Arizona Sta
 
 I think about the full data lifecycle — ingestion → storage → modeling → transformation → distributed processing → streaming → analytics → machine learning → visualization → deployment — because I've built at both ends of it: statistical models on top, and the storage and streaming systems underneath.
 
+## Featured In
+
+**[What AI Literacy Looks Like Offline](https://news.engineering.asu.edu/2026/10/what-ai-literacy-looks-like-offline/)** — *ASU Engineering News, Ira A. Fulton Schools of Engineering (Oct 2026)*
+
+Featured for work at the intersection of AI literacy, conservation education, and community-centered technology in Kenya: a summer field project that traded a digital AI curriculum for printed, AI-assisted storybooks and reading clubs in six rural primary schools — teaching kids to question AI answers before they ever log on.
+
 ## What I Work On
 
 - **Data Engineering** — ETL/data pipelines, distributed processing, streaming systems, database design, containerization and orchestration
